@@ -9,9 +9,9 @@ models:
         tests:
           - unique
           - not_null
-        name: first_name
+      - name: first_name
         description: a personal name given to someone at birth or baptism and used before a family name.
-        name: last_name
+      - name: last_name
         description: the identification that an individual is given to represent the family name in the cultural system of many societies
 
   - name: stg_orders
