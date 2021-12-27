@@ -6,3 +6,7 @@ sources:
     schema: stripe
     tables:
       - name: payment
+        description: table of payments
+        columns: 
+          - name: id
+            description: Primary Key for payments
